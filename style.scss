@@ -43,6 +43,14 @@ body {
   margin-bottom: 36px;
 }
 
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
 .btn {
   padding: 15px 45px;
   display: inline-block;
@@ -967,5 +975,29 @@ body {
 
   &-null-point {
     cursor: initial;
+  }
+}
+
+.anio {
+  margin: 50px 0;
+  &__title {
+    display: block;
+    margin: 12px 0;
+  }
+
+  &__img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+
+    img {
+      max-height: 150px;
+    }
+  }
+
+  &__video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
 }
