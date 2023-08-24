@@ -122,6 +122,7 @@ body {
 
 .header {
   padding: 20px 0;
+  background: $black;
 }
 
 .nav-us {
@@ -154,14 +155,13 @@ body {
   }
 
   &__link {
-    color: $black;
+    color: $white;
     text-decoration: none;
     font-weight: 500;
     opacity: 0.8;
     transition: color 0.3s, font-weight .5s;
 
     &--active, &:hover {
-      color: $boldblack;
       font-weight: 600;
     }
   }
@@ -197,8 +197,8 @@ body {
 
 .hero {
   text-align: center;
-  padding: 130px 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero-bg.jpg');
+  padding: 150px 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero-bg2.jpeg');
   background-position: center;
   background-size: cover;
 
@@ -207,8 +207,11 @@ body {
   }
 
   &--project {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/foto4.jpg');
-    background-position: center -70px;
+    padding: 150px 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/proyecto_hero_bg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   &--scraps {
@@ -475,8 +478,17 @@ body {
   }
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .project {
-  padding: 70px 0;
+  padding: 50px 0;
+
+  &.p2 {
+    background-color: $black;
+    color: $white;
+  }
 
   &__row {
     padding: 30px 0;
@@ -489,6 +501,10 @@ body {
   }
 
   &__text {
+    line-height: 2rem;
+  }
+
+  .list_m {
     line-height: 2rem;
   }
 
@@ -511,6 +527,19 @@ body {
     @media  (max-width: 768px) {
       min-width: 200px;
     }
+  }
+
+  &.aporte {
+    background-color: $white;  
+  }
+
+  .aporte__img {
+    text-align: center;
+  }
+  .aporte__img img {
+    height: 100px;
+    margin: 0 20px;
+    margin-bottom: 20px;
   }
 }
 
