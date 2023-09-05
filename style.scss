@@ -12,6 +12,7 @@ $superdark: #3D5467;
 
 $lightgray: #F7F1FFBF;
 $white: #F3F4F6;
+$super_white: #FFFFFF;
 $whitetrans: #f3f4f6ba;
 $black: #333;
 $boldblack: #000;
@@ -538,7 +539,7 @@ body {
   }
 
   &.aporte {
-    background-color: $white;  
+    background-color: $super_white;  
   }
 
   .aporte__img {
