@@ -1,10 +1,10 @@
 import './App.css'
+import Home from './components/pages/Home'
 
 function App() {
   return (
     <>
-      <h1>Actualizador de datos - PortCap</h1>
-      <hr className='my-4' />
+      <Home></Home>
     </>
   )
 }

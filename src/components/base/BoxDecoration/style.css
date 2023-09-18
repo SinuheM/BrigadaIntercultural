@@ -1,0 +1,23 @@
+.box-decoration_yellow {
+  content: '';
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 10px;
+  bottom: -10px;
+  border: 1px solid #E4BD00;
+  left: 10px;
+  border-radius: 1rem;
+  z-index: 2;
+}
+
+.box-decoration_cyan {
+  content: '';
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 20px;
+  bottom: -20px;
+  border: 1px solid #2FB0B6;
+  left: 20px;
+  border-radius: 1rem;
+  z-index: 1;
+}
