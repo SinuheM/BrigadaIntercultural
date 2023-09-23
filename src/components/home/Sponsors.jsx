@@ -36,10 +36,10 @@ function Sponsors() {
         </div>
         <div className='flex flex-col md:flex-row justify-around items-center'>
           <a href="https://drej.edu.pe/" className='inline-block mb-6 md:mb-0'>
-            <img src={logoDrej} alt="Dirección Regional de Educación Junin" className='h-14' />
+            <img src={logoDrej} alt="Dirección Regional de Educación Junin" className='sm:h-14' />
           </a>
           <a href="https://ddcjunin.wordpress.com/" className='inline-block'>
-            <img src={logoDdcJunin} alt="Dirección Desconcentrada de Cultura de Junin" className='h-14' />
+            <img src={logoDdcJunin} alt="Dirección Desconcentrada de Cultura de Junin" className='sm:h-14' />
           </a>
         </div>
       </Container>
