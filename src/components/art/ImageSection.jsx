@@ -44,7 +44,7 @@ function ImageSection({
             marginType="small"
           >
             <ImageIcon />
-            Ver fotos
+            {hideImages ? 'Ver videos' : 'Ver fotos'}
           </Button>
         </div>
         {images?.length > 2 && (

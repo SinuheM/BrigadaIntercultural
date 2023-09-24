@@ -15,15 +15,15 @@ export default {
         }
       },
       backgroundImage: {
-        'hero-home': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('img/hero-bg2.jpeg')",
-        'solution-1': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('img/home/solution-historieta.png')",
-        'solution-2': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('img/home/solution-fotografia.png')",
-        'solution-3': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('img/home/solution-mural.png')",
-        'solution-4': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('img/home/solution-burilado.png')",
-        'solution-5': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('img/home/solution-podcast.png')",
-        'solution-6': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('img/home/solution-stop-motion.png')",
-        'solution-7': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('img/home/solution-mascaras.png')",
-        'art': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('img/arte/hero.jpeg')"
+        'hero-home': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/img/hero-bg2.jpeg')",
+        'solution-1': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-historieta.png')",
+        'solution-2': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-fotografia.png')",
+        'solution-3': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-mural.png')",
+        'solution-4': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-burilado.png')",
+        'solution-5': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-podcast.png')",
+        'solution-6': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-stop-motion.png')",
+        'solution-7': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-mascaras.png')",
+        'art': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/img/arte/hero.jpeg')"
       },
       fontSize: {
         '2.5xl': '1.75rem'
