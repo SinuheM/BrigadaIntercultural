@@ -31,21 +31,21 @@ import art_2019_1 from "../../img/arte/2019/bi_estrategia_1.jpeg"
 import art_2019_2 from "../../img/arte/2019/bi_estrategia_2.jpeg"
 import art_2019_3 from "../../img/arte/2019/bi_estrategia_3.jpeg"
 
-import art_2018_1 from "../../img/arte/2018/1.jpg"
-import art_2018_2 from "../../img/arte/2018/2.jpg"
-import art_2018_3 from "../../img/arte/2018/3.jpg"
-import art_2018_4 from "../../img/arte/2018/4.jpg"
-import art_2018_5 from "../../img/arte/2018/5.jpg"
-import art_2018_6 from "../../img/arte/2018/6.jpg"
+import art_2018_1 from "../../img/arte/2018/1.2.jpg"
+import art_2018_2 from "../../img/arte/2018/2.2.jpg"
+import art_2018_3 from "../../img/arte/2018/3.2.jpg"
+import art_2018_4 from "../../img/arte/2018/4.2.jpg"
+import art_2018_5 from "../../img/arte/2018/5.2.jpg"
+import art_2018_6 from "../../img/arte/2018/6.2.jpg"
 import art_2018_7 from "../../img/arte/2018/7.png"
 import art_2018_8 from "../../img/arte/2018/8.png"
 
-import art_2017_1 from "../../img/arte/2017/1.jpg"
-import art_2017_2 from "../../img/arte/2017/2.jpg"
-import art_2017_3 from "../../img/arte/2017/3.jpg"
-import art_2017_4 from "../../img/arte/2017/4.jpg"
-import art_2017_5 from "../../img/arte/2017/5.jpg"
-import art_2017_6 from "../../img/arte/2017/6.jpg"
+import art_2017_1 from "../../img/arte/2017/1.2.jpg"
+import art_2017_2 from "../../img/arte/2017/2.2.jpg"
+import art_2017_3 from "../../img/arte/2017/3.2.jpg"
+import art_2017_4 from "../../img/arte/2017/4.2.jpg"
+import art_2017_5 from "../../img/arte/2017/5.2.jpg"
+import art_2017_6 from "../../img/arte/2017/6.2.jpg"
 import art_2017_7 from "../../img/arte/2017/7.png"
 import art_2017_8 from "../../img/arte/2017/8.png"
 import art_2017_9 from "../../img/arte/2017/9.png"
@@ -53,6 +53,7 @@ import art_2017_10 from "../../img/arte/2017/10.png"
 import art_2017_11 from "../../img/arte/2017/11.png"
 import art_2017_12 from "../../img/arte/2017/12.png"
 
+import art_2016_principal from "../../img/arte/2016/Principal.jpg"
 import art_2016_1 from "../../img/arte/2016/1.jpg"
 import art_2016_2 from "../../img/arte/2016/2.jpg"
 import art_2016_3 from "../../img/arte/2016/3.jpg"
@@ -63,7 +64,7 @@ import art_2016_7 from "../../img/arte/2016/7.jpg"
 import art_2016_8 from "../../img/arte/2016/8.jpg"
 
 import art_2023_1 from "../../img/arte/2023/1.png"
-import art_2023_2 from "../../img/arte/2023/2.png"
+import art_2023_2 from "../../img/arte/2023/2.jpg"
 import art_2023_3 from "../../img/arte/2023/3.2.png"
 import art_2023_5 from "../../img/arte/2023/5.png"
 import art_2023_6 from "../../img/arte/2023/6.png"
@@ -73,7 +74,7 @@ export const artData = [
   {
     year: 2022,
     title: 'Burilando la interculturalidad',
-    subtitle: 'TECNICA: Burilado de mates',
+    subtitle: 'TÉCNICA: Burilado de mates',
     detail: 'La técnica consiste en hacer finas incisiones con un buril sobre el mate creando dibujos que generalmente representan escenas de la cotidianidad.',
     images: [
       art_2022_1,
@@ -201,6 +202,7 @@ export const artData = [
     subtitle: 'TÉCNICA: Historieta',
     detail: 'También conocida como cómic, tira cómica, comiquita, novela gráfica o arte secuencial, es un género artístico que consiste en una serie de viñetas ilustradas, con o sin texto de acompañamiento, que al ser leídas en secuencia recomponen un relato.',
     images: [
+      art_2016_principal,
       art_2016_1,
       art_2016_2,
       art_2016_3,
@@ -218,10 +220,10 @@ export const artData = [
     detail: 'La máscara o careta es una pieza de material diverso que se utiliza sobre la cara; desde la antigüedad se ha usado con fines ceremoniales y prácticos, una de las ramas del arte que más utiliza la máscara es el teatro.',
     images: [
       art_2023_1,
-      art_2023_2,
       art_2023_3,
       art_2023_5,
       art_2023_6,
+      art_2023_2,
       art_2023_7
     ]
   }

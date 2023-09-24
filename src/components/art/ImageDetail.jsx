@@ -21,10 +21,10 @@ const ImageDetail = ({ onClose, open, content }) => {
           {content.detail}
           <p className='mt-4'>{content.description}</p>
         </div>
-        <div className='grid md:grid-cols-2 gap-4 md:gap-8 mt-4 overflow-y-auto'>
+        <div className='grid md:grid-cols-2 gap-4 md:gap-8 mt-4 overflow-y-auto justify-items-center'>
           { 
             !content?.hideImages && content?.images?.map((image, index) => (
-              <img src={image} key={'det_' + index} className='rounded-2xl' alt="" />
+              <img src={image} key={'det_' + index} className='rounded-2xl border border-gray-200' alt="" />
             ))
           }
           { 

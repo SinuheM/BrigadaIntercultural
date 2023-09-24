@@ -1,6 +1,7 @@
 import Button from "../base/Button"
 import HeroTitle from "../base/HeroTitle"
 import Container from "../layout/Container"
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
         <HeroTitle className="mb-4 md:px-40 px-10 leading-snug">
           Arte y cultura para la lucha contra la discriminación étnico-racial en la escuela
         </HeroTitle>
-        <Button type="primary">NUESTRO ARTE</Button> 
+        <Button el={Link} to={"/arte"} type="primary">NUESTRO ARTE</Button> 
       </Container>
     </div>
   )
