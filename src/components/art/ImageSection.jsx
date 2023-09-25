@@ -27,6 +27,7 @@ function ImageSection({
   videos,
   hideImages,
   description,
+  yearDetail
 }) {
   const [modal, setModal] = useState(false);
   return (
@@ -37,6 +38,7 @@ function ImageSection({
             {title}
           </SectionTitle>
           <div className="mb-3">{detail}</div>
+          {yearDetail && <p className="my-4 pr-2">{yearDetail}</p>}
           <Button
             onClick={() => setModal(true)}
             className={"rounded-lg flex gap-2 text-sm items-center"}

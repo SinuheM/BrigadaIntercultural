@@ -4,7 +4,7 @@ import { useMediaQuery } from 'usehooks-ts'
 
 const ImageDetail = ({ onClose, open, content }) => {
   const matches = useMediaQuery('(min-width: 768px)')
-  console.log('content', content);
+
   return (
     <Modal
       isOpen={open}

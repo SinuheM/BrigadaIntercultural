@@ -3,6 +3,8 @@ import ImageSection from '../art/ImageSection'
 import SubHero from '../base/SubHero'
 import Layout from '../layout/Layout'
 import { artData } from '../../data/art-data'
+import { Note } from '../base/Note'
+import Container from '../layout/Container'
 
 function Art() {
   return (
@@ -27,9 +29,19 @@ function Art() {
             videos={info.videos}
             hideImages={info.hideImages}
             description={info.detail}
+            yearDetail={info.yearDetail}
           />
         ))
       }
+      <Container className="mb-8">
+        <Note>
+          NOTA: Si quieres crear junto a {' '}
+          <span aria-label='nosotros y nosotras'>nosotrxs</span>
+          , escríbenos a {' '}
+          <a className='text-blue-900' href="mailto:brigada.intercultural@gmail.com">brigada.intercultural@gmail.com</a>
+          , ¡muy pronto lanzaremos nuestra convocatoria!
+        </Note>
+      </Container>
     </Layout>
   )
 }

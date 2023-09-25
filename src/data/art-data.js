@@ -218,6 +218,7 @@ export const artData = [
     title: 'Máscaras por la interculturalidad',
     subtitle: 'TÉCNICA: Máscaras',
     detail: 'La máscara o careta es una pieza de material diverso que se utiliza sobre la cara; desde la antigüedad se ha usado con fines ceremoniales y prácticos, una de las ramas del arte que más utiliza la máscara es el teatro.',
+    yearDetail: 'Este año, lanzaremos nuestra convocatoria nacional y, en los primeros meses, desarrollaremos un programa piloto virtual con voluntarios/as jóvenes de Junín, Cusco y Arequipa.',
     images: [
       art_2023_1,
       art_2023_3,
