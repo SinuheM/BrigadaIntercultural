@@ -27,27 +27,28 @@ function ImageSection({
   videos,
   hideImages,
   description,
-  yearDetail
+  yearNote,
+  buttonText
 }) {
   const [modal, setModal] = useState(false);
   return (
     <div className="md:mb-16 mb-12">
-      <Container className="flex md:flex-row md:gap-0 flex-col gap-4">
+      <Container className="flex md:flex-row flex-col gap-4">
         <div className="md:w-1/3">
           <SectionTitle el="h2" className="text-2xl mb-2">
             {title}
           </SectionTitle>
           <div className="mb-3">{detail}</div>
-          {yearDetail && <p className="my-4 pr-2">{yearDetail}</p>}
           <Button
             onClick={() => setModal(true)}
             className={"rounded-lg flex gap-2 text-sm items-center"}
             type="bordered"
             marginType="small"
-          >
+            >
             <ImageIcon />
-            {hideImages ? 'Ver videos' : 'Ver fotos'}
+            {buttonText}
           </Button>
+          {yearNote && <p className="my-6 pr-2">{yearNote}</p>}
         </div>
         {images?.length > 2 && (
           <div className="md:w-2/3 flex gap-4">

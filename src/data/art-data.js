@@ -76,6 +76,7 @@ export const artData = [
     title: 'Burilando la interculturalidad',
     subtitle: 'TÉCNICA: Burilado de mates',
     detail: 'La técnica consiste en hacer finas incisiones con un buril sobre el mate creando dibujos que generalmente representan escenas de la cotidianidad.',
+    buttonText: 'Ver fotos',
     images: [
       art_2022_1,
       art_2022_2,
@@ -105,6 +106,7 @@ export const artData = [
     subtitle: 'TÉCNICA: Stop-motion',
     detail: 'La técnica consiste en crear la ilusión de movimiento mediante la grabación de imágenes sucesivas, manipulando, normalmente a mano, objetos o imágenes recortadas, en un entorno espacial físico.',
     hideImages: true,
+    buttonText: 'Ver videos',
     images: [
       art_2021_1,
       art_2021_2,
@@ -127,6 +129,7 @@ export const artData = [
     subtitle: 'TÉCNICA: Podcasts',
     detail: 'La técnica consiste en la grabación de una serie de contenidos en audio sobre un contenido delimitado previamente y transmitirlos en formato online; se pueden emplear diferentes formatos como: entrevistas, conversatorios, monólogos, entre otros.',
     hideImages: true,
+    buttonText: 'Escuchar audios',
     images: [
       art_2020_1,
       art_2020_2,
@@ -149,6 +152,7 @@ export const artData = [
     subtitle: 'ESTRATEGIA: Intervención social sobre migración',
     detail: 'La campaña de concientización es una acción estratégica que consiste en propiciar la participación ciudadana en torno a una causa y aumentar su visibilidad pública: interpelando, detallando información clave y guiando el cambio de actitud.',
     hideImages: true,
+    buttonText: 'Ver videos',
     images: [
       art_2019_1,
       art_2019_2,
@@ -165,6 +169,7 @@ export const artData = [
     title: 'Fotografía por la interculturalidad',
     subtitle: 'TÉCNICA: Fotografía',
     detail: 'El arte y la técnica consiste en obtener, capturar y plasmar imágenes duraderas debido a la acción de la luz.',
+    buttonText: 'Ver fotos',
     images: [
       art_2018_1,
       art_2018_2,
@@ -181,6 +186,7 @@ export const artData = [
     title: 'Murales-collage por la interculturalidad',
     subtitle: 'TÉCNICA: Mural-collage',
     detail: 'Esta técnica pictórica consiste en combinar diferentes elementos externos sobre un soporte; normalmente, recortes, fotografías, papeles, entre otros.',
+    buttonText: 'Ver fotos',
     images: [
       art_2017_1,
       art_2017_2,
@@ -201,6 +207,7 @@ export const artData = [
     title: 'Historietas por la interculturalidad',
     subtitle: 'TÉCNICA: Historieta',
     detail: 'También conocida como cómic, tira cómica, comiquita, novela gráfica o arte secuencial, es un género artístico que consiste en una serie de viñetas ilustradas, con o sin texto de acompañamiento, que al ser leídas en secuencia recomponen un relato.',
+    buttonText: 'Ver fotos',
     images: [
       art_2016_principal,
       art_2016_1,
@@ -212,13 +219,16 @@ export const artData = [
       art_2016_7,
       art_2016_8,
     ]
-  },
+  }
+]
+
+export const artData2023 = [
   {
     year: 'NUESTRO 2023',
     title: 'Máscaras por la interculturalidad',
     subtitle: 'TÉCNICA: Máscaras',
     detail: 'La máscara o careta es una pieza de material diverso que se utiliza sobre la cara; desde la antigüedad se ha usado con fines ceremoniales y prácticos, una de las ramas del arte que más utiliza la máscara es el teatro.',
-    yearDetail: 'Este año, lanzaremos nuestra convocatoria nacional y, en los primeros meses, desarrollaremos un programa piloto virtual con voluntarios/as jóvenes de Junín, Cusco y Arequipa.',
+    buttonText: 'Ver fotos',
     images: [
       art_2023_1,
       art_2023_3,

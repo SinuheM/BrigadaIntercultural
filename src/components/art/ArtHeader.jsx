@@ -1,13 +1,13 @@
 import Container from '../layout/Container'
 import SectionTitle from '../base/SectionTitle'
 
-function Header() {
+function ArtHeader({ title, content }) {
   return (
     <Container className="pt-14">
-      <SectionTitle el="h1">NUESTRO ARTE</SectionTitle>
-      <p className='py-8'>Desde 2016, reconocemos el potencial del arte y la cultura para la lucha contra la discriminación étnico-racial en la escuela, acompáñanos y (re)conoce lo que creamos en estos años:</p>
+      <SectionTitle el="h1">{title}</SectionTitle>
+      <p className='py-8'>{content}</p>
     </Container>
   )
 }
 
-export default Header
+export default ArtHeader
