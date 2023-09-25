@@ -17,9 +17,9 @@ const ImageDetail = ({ onClose, open, content }) => {
           <SectionTitle el='h2' className="text-2xl mb-2">{content.title}</SectionTitle>
           <button className='text-2.5xl hover:bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full transition-colors' onClick={onClose}>x</button>
         </div>
-        <div>
+        <div className='leading-8'>
           {content.detail}
-          <p className='mt-4'>{content.description}</p>
+          <p className='mt-4 leading-7'>{content.description}</p>
         </div>
         <div className='grid md:grid-cols-2 gap-4 md:gap-8 mt-4 overflow-y-auto justify-items-center'>
           { 

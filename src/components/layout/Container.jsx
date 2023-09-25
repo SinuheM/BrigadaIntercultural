@@ -1,8 +1,8 @@
 import clsx from "clsx"
 
-function Container({ children, className }) {
+function Container({ children, className, el:El = 'section' }) {
   return (
-    <section className={clsx('max-w-full w-full md:max-w-6xl px-6 mx-auto box-border', className)}>{children}</section>
+    <El className={clsx('max-w-full w-full md:max-w-6xl px-6 mx-auto box-border', className)}>{children}</El>
   )
 }
 

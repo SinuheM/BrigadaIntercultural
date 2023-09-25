@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const navLinks = [
   { text: "Arte", style: "normal", href: { to: "/arte" }, el: Link },
-  { text: "Creación", style: "normal", href: { href: "creacion.html" }, el: 'a' },
-  { text: "Impacto", style: "normal", href: { href: "impacto.html" }, el: 'a' },
+  { text: "Creación", style: "normal", href: { to: "/creacion" }, el: Link },
+  { text: "Impacto", style: "normal", href: { to: "/impacto" }, el: Link },
   { text: "Únete", style: "primary", href: { href: "unete.html" }, el: 'a' },
 ];
 

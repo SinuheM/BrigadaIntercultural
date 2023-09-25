@@ -2,7 +2,9 @@ import clsx from 'clsx'
 import Container from '../layout/Container'
 
 const backgroundByType = {
-  art: 'bg-art'
+  art: 'bg-art',
+  creation: 'bg-creation',
+  impact: 'bg-impact'
 }
 
 function SubHero({ type, children }) {

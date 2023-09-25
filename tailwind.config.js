@@ -23,7 +23,9 @@ export default {
         'solution-5': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-podcast.png')",
         'solution-6': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-stop-motion.png')",
         'solution-7': "linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.70) 100%), url('/img/home/solution-mascaras.png')",
-        'art': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/img/arte/hero.jpeg')"
+        'art': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/img/arte/hero.jpeg')",
+        'creation': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/img/creacion/hero.jpg')",
+        'impact': "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/img/impacto/hero.jpg')"
       },
       fontSize: {
         '2.5xl': '1.75rem'
