@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import ArtHeader from "../art/ArtHeader";
 import ImageSection from "../art/ImageSection";
 import SubHero from "../base/SubHero";
@@ -8,6 +9,9 @@ import { Note } from "../base/Note";
 function Art() {
   return (
     <Layout>
+      <Helmet>
+        <title>Arte | Brigada intercultural</title>
+      </Helmet>
       <SubHero type="art">
         Arte reivindicativo y de resistencia intercultural que moviliza
         conciencias frente a la discriminación en la escuela.

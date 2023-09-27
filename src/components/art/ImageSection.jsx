@@ -48,7 +48,7 @@ function ImageSection({
             <ImageIcon />
             {buttonText}
           </Button>
-          {yearNote && <p className="my-6 pr-2">{yearNote}</p>}
+          {yearNote && <div className="my-6 pr-2">{yearNote}</div>}
         </div>
         {images?.length > 2 && (
           <div className="md:w-2/3 flex gap-4">
