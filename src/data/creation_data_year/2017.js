@@ -1,5 +1,5 @@
 import creacion_2017 from "../../../img/creacion/2017/img-general-sm.jpg"
-import coordinador_2017 from "../../../img/creacion/2017/coordinadora.jpg"
+import coordinador_2017 from "../../../img/creacion/Coordinadores/2.jpg"
 
 import creacion_formacion_1 from "../../../img/creacion/2017/1_Formacion_sensibilizante/1.jpg"
 import creacion_formacion_2 from "../../../img/creacion/2017/1_Formacion_sensibilizante/2.jpg"

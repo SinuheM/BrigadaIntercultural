@@ -1,5 +1,5 @@
 import creacion_2022 from "../../../img/creacion/2022/img-general-sm.jpg"
-import coordinador_2022 from "../../../img/creacion/2022/coordinadora.jpg"
+import coordinador_2022 from "../../../img/creacion/Coordinadores/7.jpg"
 
 import creacion_formacion_1 from "../../../img/creacion/2022/1_Formacion_sensibilizante/1.jpg"
 import creacion_formacion_2 from "../../../img/creacion/2022/1_Formacion_sensibilizante/2.jpg"
