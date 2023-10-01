@@ -1,9 +1,10 @@
-import creacion_2016 from "../../img/creacion/2016/img-general-sm.jpg"
-import creacion_2017 from "../../img/creacion/2017/img-general-sm.jpg"
-import creacion_2018 from "../../img/creacion/2018/img-general-sm.jpg"
-import creacion_2019 from "../../img/creacion/2019/img-general-sm.jpg"
-import creacion_2020 from "../../img/creacion/2020/img-general-sm.jpg"
-import creacion_2022 from "../../img/creacion/2022/img-general-sm.jpg"
+import { _2016 } from "./creation_data_year/2016"
+import { _2017 } from "./creation_data_year/2017"
+import { _2018 } from "./creation_data_year/2018"
+import { _2019 } from "./creation_data_year/2019"
+import { _2020 } from "./creation_data_year/2020"
+import { _2021 } from "./creation_data_year/2021"
+import { _2022 } from "./creation_data_year/2022"
 
 export const creationData = {
   conceptual_base: [
@@ -33,102 +34,25 @@ export const creationData = {
   ],
   experiences: [
     {
-      year: 2016,
-      image: creacion_2016,
-      coordinator: 'Ximena Prialé Córdova',
-      sensitizing_training: [
-        ''
-      ],
-      creative_reflection: [
-        ''
-      ],
-      community_action: [
-        ''
-      ]
+      ..._2016,
     },
     {
-      year: 2017,
-      image: creacion_2017,
-      coordinator: 'Wendy Merino Guevara',
-      sensitizing_training: [
-        ''
-      ],
-      creative_reflection: [
-        ''
-      ],
-      community_action: [
-        ''
-      ]
+      ..._2017,
     },
     {
-      year: 2018,
-      image: creacion_2018,
-      coordinator: 'Christian Pocomucha Tadeo',
-      sensitizing_training: [
-        ''
-      ],
-      creative_reflection: [
-        ''
-      ],
-      community_action: [
-        ''
-      ]
+      ..._2018
     },
     {
-      year: 2019,
-      image: creacion_2019,
-      coordinator: 'Ximena Prialé Córdova',
-      sensitizing_training: [
-        ''
-      ],
-      creative_reflection: [
-        ''
-      ],
-      community_action: [
-        ''
-      ]
+      ..._2019
     },
     {
-      year: 2020,
-      image: creacion_2020,
-      coordinator: 'Wendy Merino Guevara',
-      sensitizing_training: [
-        ''
-      ],
-      creative_reflection: [
-        ''
-      ],
-      community_action: [
-        ''
-      ]
+      ..._2020
     },
     {
-      year: 2021,
-      image: creacion_2018,
-      coordinator: 'Christian Pocomucha Tadeo',
-      sensitizing_training: [
-        ''
-      ],
-      creative_reflection: [
-        ''
-      ],
-      community_action: [
-        ''
-      ]
+      ..._2021
     },
     {
-      year: 2022,
-      image: creacion_2022,
-      coordinator: 'Christian Pocomucha Tadeo',
-      sensitizing_training: [
-        ''
-      ],
-      creative_reflection: [
-        ''
-      ],
-      community_action: [
-        ''
-      ]
+      ..._2022
     }
   ]
 }
