@@ -43,7 +43,7 @@ function Navigation() {
 
 const NavigationMobile = ({ navLinks, height }) => (
   <ul
-    className="flex flex-col overflow-hidden duration-500 transition-[height] drop-shadow-md"
+    className="md:hidden flex flex-col overflow-hidden duration-500 transition-[height] drop-shadow-md"
     style={{ height }}
   >
     {navLinks.map((link, key) => {

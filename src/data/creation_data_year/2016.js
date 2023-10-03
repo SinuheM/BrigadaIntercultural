@@ -12,7 +12,7 @@ import creacion_formacion_2016_8 from "../../../img/creacion/2016/1_Formacion_se
 import creacion_formacion_2016_9 from "../../../img/creacion/2016/1_Formacion_sensibilizante/9.jpg"
 import creacion_formacion_2016_10 from "../../../img/creacion/2016/1_Formacion_sensibilizante/10.jpg"
 import creacion_formacion_2016_11 from "../../../img/creacion/2016/1_Formacion_sensibilizante/11.jpg"
-import creacion_formacion_2016_12 from "../../../img/creacion/2016/1_Formacion_sensibilizante/12.jpg"
+/* import creacion_formacion_2016_12 from "../../../img/creacion/2016/1_Formacion_sensibilizante/12.jpg" */
 
 import creacion_reflexion_2016_1 from "../../../img/creacion/2016/2_Reflexion_creadora/1.jpg"
 import creacion_reflexion_2016_2 from "../../../img/creacion/2016/2_Reflexion_creadora/2.jpg"
@@ -24,7 +24,7 @@ import creacion_reflexion_2016_7 from "../../../img/creacion/2016/2_Reflexion_cr
 import creacion_reflexion_2016_8 from "../../../img/creacion/2016/2_Reflexion_creadora/8.jpg"
 import creacion_reflexion_2016_9 from "../../../img/creacion/2016/2_Reflexion_creadora/9.jpg"
 import creacion_reflexion_2016_10 from "../../../img/creacion/2016/2_Reflexion_creadora/10.jpg"
-import creacion_reflexion_2016_11 from "../../../img/creacion/2016/2_Reflexion_creadora/11.jpg"
+/* import creacion_reflexion_2016_11 from "../../../img/creacion/2016/2_Reflexion_creadora/11.jpg" */
 
 import creacion_accion_2016_1 from "../../../img/creacion/2016/3_Accion_comunitaria/1.jpg"
 import creacion_accion_2016_2 from "../../../img/creacion/2016/3_Accion_comunitaria/2.jpg"
@@ -36,7 +36,7 @@ import creacion_accion_2016_7 from "../../../img/creacion/2016/3_Accion_comunita
 import creacion_accion_2016_8 from "../../../img/creacion/2016/3_Accion_comunitaria/8.jpg"
 import creacion_accion_2016_9 from "../../../img/creacion/2016/3_Accion_comunitaria/9.jpg"
 import creacion_accion_2016_10 from "../../../img/creacion/2016/3_Accion_comunitaria/10.jpg"
-import creacion_accion_2016_11 from "../../../img/creacion/2016/3_Accion_comunitaria/11.jpg"
+/* import creacion_accion_2016_11 from "../../../img/creacion/2016/3_Accion_comunitaria/11.jpg" */
 
 export const _2016 = {
   year: 2016,
@@ -55,7 +55,7 @@ export const _2016 = {
     creacion_formacion_2016_9,
     creacion_formacion_2016_10,
     creacion_formacion_2016_11,
-    creacion_formacion_2016_12
+    /* creacion_formacion_2016_12 */
   ],
   creative_reflection: [
     creacion_reflexion_2016_1,
@@ -68,7 +68,7 @@ export const _2016 = {
     creacion_reflexion_2016_8,
     creacion_reflexion_2016_9,
     creacion_reflexion_2016_10,
-    creacion_reflexion_2016_11,
+    /* creacion_reflexion_2016_11, */
   ],
   community_action: [
     creacion_accion_2016_1,
@@ -81,6 +81,6 @@ export const _2016 = {
     creacion_accion_2016_8,
     creacion_accion_2016_9,
     creacion_accion_2016_10,
-    creacion_accion_2016_11
+    /* creacion_accion_2016_11 */
   ]
 }

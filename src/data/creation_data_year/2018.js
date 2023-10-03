@@ -11,7 +11,7 @@ import creacion_formacion_7 from "../../../img/creacion/2018/1_Formacion_sensibi
 import creacion_formacion_8 from "../../../img/creacion/2018/1_Formacion_sensibilizante/8.jpg"
 import creacion_formacion_9 from "../../../img/creacion/2018/1_Formacion_sensibilizante/9.jpg"
 import creacion_formacion_10 from "../../../img/creacion/2018/1_Formacion_sensibilizante/10.jpg"
-import creacion_formacion_11 from "../../../img/creacion/2018/1_Formacion_sensibilizante/11.jpg"
+/* import creacion_formacion_11 from "../../../img/creacion/2018/1_Formacion_sensibilizante/11.jpg" */
 
 import creacion_reflexion_1 from "../../../img/creacion/2018/2_Reflexion_creadora/1.jpg"
 import creacion_reflexion_2 from "../../../img/creacion/2018/2_Reflexion_creadora/2.jpg"
@@ -19,7 +19,7 @@ import creacion_reflexion_3 from "../../../img/creacion/2018/2_Reflexion_creador
 import creacion_reflexion_4 from "../../../img/creacion/2018/2_Reflexion_creadora/4.jpg"
 import creacion_reflexion_5 from "../../../img/creacion/2018/2_Reflexion_creadora/5.jpg"
 import creacion_reflexion_6 from "../../../img/creacion/2018/2_Reflexion_creadora/6.jpg"
-import creacion_reflexion_7 from "../../../img/creacion/2018/2_Reflexion_creadora/7.jpg"
+/* import creacion_reflexion_7 from "../../../img/creacion/2018/2_Reflexion_creadora/7.jpg" */
 
 import creacion_accion_1 from "../../../img/creacion/2018/3_Accion_comunitaria/1.jpg"
 import creacion_accion_2 from "../../../img/creacion/2018/3_Accion_comunitaria/2.jpg"
@@ -31,7 +31,7 @@ import creacion_accion_7 from "../../../img/creacion/2018/3_Accion_comunitaria/7
 import creacion_accion_8 from "../../../img/creacion/2018/3_Accion_comunitaria/8.jpg"
 import creacion_accion_9 from "../../../img/creacion/2018/3_Accion_comunitaria/9.jpg"
 import creacion_accion_10 from "../../../img/creacion/2018/3_Accion_comunitaria/10.jpg"
-import creacion_accion_11 from "../../../img/creacion/2018/3_Accion_comunitaria/11.jpg"
+/* import creacion_accion_11 from "../../../img/creacion/2018/3_Accion_comunitaria/11.jpg" */
 
 export const _2018 = {
   year: 2018,
@@ -49,7 +49,7 @@ export const _2018 = {
     creacion_formacion_8,
     creacion_formacion_9,
     creacion_formacion_10,
-    creacion_formacion_11
+   /*  creacion_formacion_11 */
   ],
   creative_reflection: [
     creacion_reflexion_1,
@@ -58,7 +58,7 @@ export const _2018 = {
     creacion_reflexion_4,
     creacion_reflexion_5,
     creacion_reflexion_6,
-    creacion_reflexion_7
+    /* creacion_reflexion_7 */
   ],
   community_action: [
     creacion_accion_1,
@@ -71,6 +71,6 @@ export const _2018 = {
     creacion_accion_8,
     creacion_accion_9,
     creacion_accion_10,
-    creacion_accion_11
+    /* creacion_accion_11 */
   ]
 }

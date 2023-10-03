@@ -17,7 +17,7 @@ import creacion_formacion_13 from "../../../img/creacion/2022/1_Formacion_sensib
 import creacion_formacion_14 from "../../../img/creacion/2022/1_Formacion_sensibilizante/14.jpg"
 import creacion_formacion_15 from "../../../img/creacion/2022/1_Formacion_sensibilizante/15.jpg"
 import creacion_formacion_16 from "../../../img/creacion/2022/1_Formacion_sensibilizante/16.jpg"
-import creacion_formacion_17 from "../../../img/creacion/2022/1_Formacion_sensibilizante/17.jpg"
+// import creacion_formacion_17 from "../../../img/creacion/2022/1_Formacion_sensibilizante/17.jpg"
 
 import creacion_reflexion_1 from "../../../img/creacion/2022/2_Reflexion_creadora/1.jpg"
 import creacion_reflexion_2 from "../../../img/creacion/2022/2_Reflexion_creadora/2.jpg"
@@ -34,7 +34,7 @@ import creacion_reflexion_12 from "../../../img/creacion/2022/2_Reflexion_creado
 import creacion_reflexion_13 from "../../../img/creacion/2022/2_Reflexion_creadora/13.jpg"
 import creacion_reflexion_14 from "../../../img/creacion/2022/2_Reflexion_creadora/14.jpg"
 import creacion_reflexion_15 from "../../../img/creacion/2022/2_Reflexion_creadora/15.jpg"
-import creacion_reflexion_16 from "../../../img/creacion/2022/2_Reflexion_creadora/16.jpg"
+// import creacion_reflexion_16 from "../../../img/creacion/2022/2_Reflexion_creadora/16.jpg"
 
 import creacion_accion_1 from "../../../img/creacion/2022/3_Accion_comunitaria/1.jpg"
 import creacion_accion_2 from "../../../img/creacion/2022/3_Accion_comunitaria/2.jpg"
@@ -74,7 +74,7 @@ export const _2022 = {
     creacion_formacion_14,
     creacion_formacion_15,
     creacion_formacion_16,
-    creacion_formacion_17
+    /* creacion_formacion_17 */
   ],
   creative_reflection: [
     creacion_reflexion_1,
@@ -92,7 +92,7 @@ export const _2022 = {
     creacion_reflexion_13,
     creacion_reflexion_14,
     creacion_reflexion_15,
-    creacion_reflexion_16
+    /* creacion_reflexion_16 */
   ],
   community_action: [
     creacion_accion_1,
