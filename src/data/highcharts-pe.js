@@ -1,5 +1,4 @@
-Highcharts.maps["countries/pe/pe-all"] = 
-{
+export const mapPeruData = {
 	"title": "Peru",
 	"version": "1.1.2",
 	"type": "FeatureCollection",

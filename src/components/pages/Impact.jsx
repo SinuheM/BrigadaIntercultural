@@ -3,6 +3,7 @@ import SubHero from "../base/SubHero";
 import Layout from "../layout/Layout";
 import Benefit from '../impact/Benefit';
 import { Recognition } from '../impact/Recognition';
+import Map from '../impact/Map';
 
 const Impact = () => {
   return (
@@ -14,6 +15,7 @@ const Impact = () => {
         Las y los jóvenes estamos llamados a velar por nuestra diversidad cultural, (re)conócenos…
       </SubHero>
       <Benefit />
+      <Map />
       <Recognition />
     </Layout>
   )
