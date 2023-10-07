@@ -1,3 +1,4 @@
+import Decoration from '../base/Decoration'
 import Indicator from '../base/Indicator'
 import SectionTitle from '../base/SectionTitle'
 import Container from '../layout/Container'
@@ -14,7 +15,8 @@ const Benefit = () => {
   return (
     <Container className="py-16 flex flex-col md:flex-row justify-between items-baseline">
       <div className='md:w-1/2'>
-        <SectionTitle el='h2' className="text-2.5xl mb-2">BENEFICIARIOS</SectionTitle>
+        <Decoration type="symbol_blue" className="inline-block" />
+        <SectionTitle el='h2' className="text-2.5xl mb-2">Beneficiarios</SectionTitle>
         <p className='py-8 leading-8'>En BRIGADA INTERCULTURAL, empoderamos estudiantes adolescentes del nivel secundaria de instituciones educativas peruanas, en su mayoría, de la región Junín.</p>
       </div>
       <ul className="md:w-1/2 flex gap-5 flex-wrap items-center justify-center text-center">

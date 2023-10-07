@@ -1,25 +1,24 @@
-import { creationData } from "../../data/creation-data";
 import ArtHeader from "../art/ArtHeader";
+import HowToIcons from "../base/HowToIcons";
 import Container from "../layout/Container";
 
 const CreativeProcess = () => {
   return (
-    <Container>
-      <ArtHeader
-        className="pl-0 md:w-4/5 ml-0"
-        el="div"
-        titleEl="h2"
-        title="PROCESO CREATIVO"
-        content="Nuestros conocimientos y experiencias nos motivan, pero nuestro proceso de creación artística e intercultural guía nuestro accionar a través de:"
-      />
-      <ul className="md:w-4/5 list-disc ml-5">
-        {creationData.creative_process.map((data, index) => (
-          <li key={'conceptual_'+index} className="mb-3">
-            {data.description}
-          </li>
-        ))}
-      </ul>
-    </Container>
+    <div className="bg-gray-200 pb-16 pt-2">
+      <Container>
+        <ArtHeader
+          className="pl-0 md:w-4/5 text-center"
+          el="div"
+          titleEl="h2"
+          title="Proceso creativo"
+          content="Nuestros conocimientos y experiencias nos motivan, pero nuestro proceso de creación artística e intercultural guía nuestro accionar a través de:"
+          iconType="symbol_blue"
+        />
+        <div className="md:grid grid-cols-3 mt-8">
+          <HowToIcons />
+        </div>
+      </Container>
+    </div>
   )
 }
 

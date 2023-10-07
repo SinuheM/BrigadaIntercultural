@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 const colorStyle = {
-  primary: "bg-yellow-350 hover:bg-yellow-400 transition-[background-color]",
+  primary: "bg-yellow-350 hover:bg-yellow-400 transition-[background-color] text-black-400 hover:text-black-400",
   bordered: "border border-gray-700 hover:bg-slate-200 py-2 px-4",
 };
 

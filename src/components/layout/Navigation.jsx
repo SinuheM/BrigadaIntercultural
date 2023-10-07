@@ -2,10 +2,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
+  { text: "Inicio", style: "normal", href: { to: "/" }, el: Link },
   { text: "Arte", style: "normal", href: { to: "/arte" }, el: Link },
   { text: "Creación", style: "normal", href: { to: "/creacion" }, el: Link },
   { text: "Impacto", style: "normal", href: { to: "/impacto" }, el: Link },
-  { text: "Únete", style: "primary", href: { href: "unete.html" }, el: 'a' },
+  { text: "Únete", style: "primary", href: { href: "mailto:brigada.intercultural@gmail.com" }, el: 'a' },
 ];
 
 const navStyle = {

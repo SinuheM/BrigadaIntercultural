@@ -17,8 +17,9 @@ function Art() {
         conciencias frente a la discriminación en la escuela.
       </SubHero>
       <ArtHeader
-        title="NUESTRO ARTE"
+        title="Nuestro arte"
         content="Desde 2016, reconocemos el potencial del arte y la cultura para la lucha contra la discriminación étnico-racial en la escuela, acompáñanos y (re)conoce lo que creamos en estos años:"
+        iconType="symbol_yellow"
       />
       {artData.map((info, index) => (
         <ImageSection
@@ -40,8 +41,9 @@ function Art() {
         />
       ))}
       <ArtHeader
-        title="NUESTRO 2023"
+        title="Nuestro 2023"
         content="Este año, lanzaremos nuestra convocatoria nacional y, en los primeros meses, desarrollaremos un programa piloto virtual con voluntarios/as jóvenes de Junín, Cusco y Arequipa."
+        iconType="symbol_blue"
       />
       {artData2023.map((info, index) => (
         <ImageSection

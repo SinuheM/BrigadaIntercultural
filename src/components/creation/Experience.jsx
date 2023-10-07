@@ -10,8 +10,9 @@ const Experience = () => {
         className="pl-0"
         el="div"
         titleEl="h2"
-        title="EXPERIENCIA B.I."
+        title="Experiencia B.I."
         content="Desde 2016, hemos impulsado y acompañado procesos de producción artística de estudiantes del nivel secundaria junto a voluntarios/as jóvenes, generando experiencias valiosas de creación colectiva que puedes conocer hoy."
+        iconType="symbol_yellow"
       />
       <ul className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {

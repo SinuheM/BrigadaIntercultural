@@ -4,6 +4,7 @@ import { mapPeruData } from '../../data/highcharts-pe'
 import Container from '../layout/Container'
 import HC_map from "highcharts/modules/map";
 import SectionTitle from '../base/SectionTitle';
+import Decoration from '../base/Decoration';
 
 HC_map(Highcharts);
 
@@ -39,7 +40,8 @@ var data = [
 
 const impactOptions = {
   title: { text: "" },
-  chart: { map: mapPeruData, backgroundColor: "rgb(47, 176, 182)", borderColor: "rgb(228, 189, 0)" },
+  chart: { map: mapPeruData, backgroundColor: "rgb(229, 231, 235)", borderColor: "rgb(228, 189, 0)" },
+  // chart: { map: mapPeruData, backgroundColor: "rgb(47, 176, 182)", borderColor: "rgb(228, 189, 0)" },
   subtitle: { text: "" },
   credits: { enabled: false },
   legend: { enabled: false },
@@ -68,10 +70,11 @@ const regions = [
 
 const Map = () => {
   return (
-    <div className='bg-cyan-350 py-10'>
+    <div className='bg-gray-200 py-10'>
       <Container className={'flex md:flex-row flex-col items-center justify-center py-4'}>
         <div className="md:pl-16 md:w-1/3">
-          <SectionTitle el='h2' className="text-2.5xl mb-2">CIFRAS</SectionTitle>
+          <Decoration type="symbol_yellow" className="inline-block" />
+          <SectionTitle el='h2' className="text-2.5xl mb-2">Cifras</SectionTitle>
           <p className='text-xl'>Tuvimos presencia en 7 Regiones</p>
           <ul className='pt-3 pl-5 list-disc'>
             {

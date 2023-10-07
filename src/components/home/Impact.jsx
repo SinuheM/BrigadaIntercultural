@@ -20,7 +20,7 @@ export default function Impact() {
           <SectionTitle className="mb-6 mt-4">Impactando en la vida</SectionTitle>
           <Text className="mb-4">Desde el 2016, hemos intervenido en 48 colegios, empoderando a más de 2000 estudiantes con el soporte de más de 700 voluntarios.</Text>
           <Text className="mb-4">¿Y tú también quieres ser un agente intercultural?</Text>
-          <Button type="primary" marginType="big" className="px-10">ÚNETE</Button> 
+          <Button el="a" type="primary" marginType="big" className="px-10" href="mailto:brigada.intercultural@gmail.com">ÚNETE</Button> 
         </div>
       </Container>
     </div>
