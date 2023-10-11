@@ -23,4 +23,4 @@ dist
 *.sln
 *.sw?
 
-*.DS_STORE
+**/.DS_Store

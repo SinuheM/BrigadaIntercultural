@@ -1,4 +1,4 @@
-import creacion_2021 from "../../../img/creacion/2018/img-general-sm.jpg"
+import creacion_2021 from "../../../img/creacion/2021/img-general-sm.jpg"
 import coordinador_2021 from "../../../img/creacion/Coordinadores/6.jpg"
 
 import creacion_formacion_1 from "../../../img/creacion/2021/1_Formacion_sensibilizante/1.jpeg"

@@ -7,7 +7,7 @@ import Container from '../layout/Container'
 const solutionList = [
   {name: "Historieta", className: "bg-solution-1" },
   {name: "Fotografía", className: "bg-solution-2" },
-  {name: "Mural", className: "bg-solution-3" },
+  {name: "Mural-collage", className: "bg-solution-3" },
   {name: "Burilado", className: "bg-solution-4" },
   {name: "Podcast", className: "bg-solution-5" },
   {name: "Stop-motion", className: "bg-solution-6" },
