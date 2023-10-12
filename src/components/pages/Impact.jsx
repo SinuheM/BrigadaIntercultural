@@ -12,7 +12,7 @@ const Impact = () => {
         <title>Impacto | Brigada intercultural</title>
       </Helmet>
       <SubHero type="impact">
-        Las y los jóvenes estamos llamados a velar por nuestra diversidad cultural, (re)conócenos…
+        La adquisición de competencias interculturales nos empodera y convierte en terreno fértil para la consolidación de una convivencia saludable en la escuela
       </SubHero>
       <Benefit />
       <Map />
