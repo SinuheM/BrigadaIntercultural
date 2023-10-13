@@ -7,7 +7,7 @@ const statistics = [
   { id: 1, number: ">2000", detail: "estudiantes" },
   { id: 2, number: ">700", detail: "jóvenes voluntarios" },
   { id: 3, number: ">150", detail: "docentes y padres de familia" },
-  { id: 4, number: "31", detail: "colegios en Junín" },
+  { id: 4, number: "37", detail: "colegios en Junín" },
   { id: 5, number: "48", detail: "colegios en Perú" },
 ];
 

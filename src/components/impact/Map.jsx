@@ -1,10 +1,10 @@
-import Highcharts from 'highcharts'
-import HighchartsReact from 'highcharts-react-official'
-import { mapPeruData } from '../../data/highcharts-pe'
-import Container from '../layout/Container'
+import Highcharts from "highcharts";
+import HighchartsReact from "highcharts-react-official";
+import { mapPeruData } from "../../data/highcharts-pe";
+import Container from "../layout/Container";
 import HC_map from "highcharts/modules/map";
-import SectionTitle from '../base/SectionTitle';
-import Decoration from '../base/Decoration';
+import SectionTitle from "../base/SectionTitle";
+import Decoration from "../base/Decoration";
 
 HC_map(Highcharts);
 
@@ -29,7 +29,7 @@ var data = [
   // ["pe-3341", 0], // Callao
   // ["pe-ll", 0], // La libertad
   // ["pe-pa", 0], // Pasco
-  // ["pe-pu", 0], // 
+  // ["pe-pu", 0], //
   // ["pe-pi", 0], // Piura
   // ['pe-uc', 2],
   // ['pe-md', 3],
@@ -40,7 +40,11 @@ var data = [
 
 const impactOptions = {
   title: { text: "" },
-  chart: { map: mapPeruData, backgroundColor: "rgb(229, 231, 235)", borderColor: "rgb(228, 189, 0)" },
+  chart: {
+    map: mapPeruData,
+    backgroundColor: "rgb(229, 231, 235)",
+    borderColor: "rgb(228, 189, 0)",
+  },
   // chart: { map: mapPeruData, backgroundColor: "rgb(47, 176, 182)", borderColor: "rgb(228, 189, 0)" },
   subtitle: { text: "" },
   credits: { enabled: false },
@@ -53,35 +57,44 @@ const impactOptions = {
       name: "",
       data,
       color: "rgb(228, 189, 0)",
-      borderColor: "rgba(100, 100, 100, 0.5)"
+      borderColor: "rgba(100, 100, 100, 0.5)",
     },
-  ]
-}
+  ],
+};
 
 const regions = [
-  'Junín',
-  'Lima',
-  'Ica',
-  'Huancavelica',
-  'Ayacucho',
-  'Cusco',
-  'Arequipa'
-]
+  "Junín",
+  "Lima",
+  "Ica",
+  "Huancavelica",
+  "Ayacucho",
+  "Cusco",
+  "Arequipa",
+];
 
 const Map = () => {
   return (
-    <div className='bg-gray-200 py-10'>
-      <Container className={'flex md:flex-row flex-col items-center justify-center py-4'}>
-        <div className="md:pl-16 md:w-1/3">
+    <div className="bg-gray-200 py-10">
+      <Container
+        className={"flex md:flex-row flex-col items-center justify-center py-4"}
+      >
+        <div className="md:w-2/3">
           <Decoration type="symbol_yellow" className="inline-block" />
-          <SectionTitle el='h2' className="text-2.5xl mb-2">Cifras</SectionTitle>
-          <p className='text-xl'>Tuvimos presencia en 7 Regiones</p>
-          <ul className='pt-3 pl-5 list-disc'>
-            {
-              regions.map((region, index) => (
-                <li key={'reg_'+index}>{region}</li>
-              ))
-            }
+          <SectionTitle el="h2" className="text-2.5xl mb-2">
+            Alcance
+          </SectionTitle>
+          <p className="my-3 leading-8">
+            Nuestro sueño intercultural comenzó en la región Junín, pero en el
+            camino encontramos nuevas y nuevos agentes de cambio que creen en el
+            reconocimiento positivo de la diversidad y se suman a la lucha
+            contra la discriminación étnico-racial desde la escuela a nivel
+            nacional.
+          </p>
+          <p className="text-lg my-3">48 Colegios a nivel nacional</p>
+          <ul className="pt-3 pl-5 list-disc">
+            {regions.map((region, index) => (
+              <li key={"reg_" + index}>{region}</li>
+            ))}
           </ul>
         </div>
         <div className="md:w-1/3">
@@ -93,7 +106,7 @@ const Map = () => {
         </div>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Map
+export default Map;
