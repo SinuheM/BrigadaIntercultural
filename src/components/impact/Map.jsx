@@ -90,7 +90,7 @@ const Map = () => {
             contra la discriminación étnico-racial desde la escuela a nivel
             nacional.
           </p>
-          <p className="text-lg my-3">48 Colegios a nivel nacional</p>
+          <p className="text-lg mt-6">48 Colegios a nivel nacional</p>
           <ul className="pt-3 pl-5 list-disc">
             {regions.map((region, index) => (
               <li key={"reg_" + index}>{region}</li>
