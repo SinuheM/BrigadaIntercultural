@@ -25,7 +25,7 @@ import art_2021_3 from "../../img/arte/2021/3.jpeg"
 
 import art_2020_1 from "../../img/arte/2020/bi_podcast_1.png"
 import art_2020_2 from "../../img/arte/2020/bi_podcast_2.jpeg"
-import art_2020_3 from "../../img/arte/2020/bi_podcast_3.jpeg"
+import art_2020_3 from "../../img/arte/2020/bi_podcast_3.jpg"
 
 import art_2019_1 from "../../img/arte/2019/bi_estrategia_1.jpeg"
 import art_2019_2 from "../../img/arte/2019/bi_estrategia_2.jpeg"
