@@ -58,6 +58,7 @@ import art_2016_1 from "../../img/arte/2016/1.jpg"
 import art_2016_2 from "../../img/arte/2016/2.jpg"
 import art_2016_3 from "../../img/arte/2016/3.jpg"
 import art_2016_4 from "../../img/arte/2016/4.jpg"
+import art_2016_4_5 from "../../img/arte/2016/4_5.jpeg"
 import art_2016_5 from "../../img/arte/2016/5.jpg"
 import art_2016_6 from "../../img/arte/2016/6.jpg"
 import art_2016_7 from "../../img/arte/2016/7.jpg"
@@ -214,6 +215,7 @@ export const artData = [
       art_2016_2,
       art_2016_3,
       art_2016_4,
+      art_2016_4_5,
       art_2016_5,
       art_2016_6,
       art_2016_7,
